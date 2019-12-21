@@ -1,0 +1,476 @@
+@media only screen and (max-width: 600px) {
+    /* .main-section {
+        padding: 0 20px 0 20px;
+    } */
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .nav-logo {
+        padding-right: 1rem;
+    }
+
+    .main-about__header {
+        width: 100%;
+        font-size: 23px;
+    }
+
+    .home-header {
+        font-size: 23px;
+    }
+
+    .header-btn {
+        display: none;
+    }
+
+    .banner-btn {
+        display: flex;
+        margin-top: 15%;
+    }
+
+    .data {
+        flex-flow: column;
+        -ms-flex-flow: column;
+    }
+
+    .data li {
+        font-size: 2.2rem;
+    }
+
+    #navigation .nav-button {
+        display: none;
+    }
+
+    .col-1, .col-2 {
+        width: 100%;
+    }
+
+    #contact {
+        overflow-x: auto;
+    }
+
+    #contact::-webkit-scrollbar {
+        background-color: transparent;
+        width: 5px;
+    }
+    
+    @-moz-document url-prefix() { 
+      #contact{
+        scrollbar-width: none;
+      }
+    }
+
+    .modal-content__sub {
+        width: 100%;
+    }
+
+    .cancel svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .modal-content {
+        margin: 10% auto;
+    }
+
+    .home {
+        padding: 0 0 0 20px;
+    }
+
+    .main-about__content {
+        width: 100%;
+        display: -webkit-flex;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .main-about__works-container {
+        display: -webkit-flex;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .main-about__work {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .main-about__works-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-about__works-img img {
+        width: 100%;
+    }
+
+    .news-area__box-img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .news-area__box-sub {
+        padding: 3% 2% 3% 5%;
+    }
+
+    .news-area__box-img img {
+        object-fit: cover;
+        -o-object-fit: cover;
+    }
+
+    .client-section__sub {
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .client-area__box {
+        width: 95%;
+        margin: auto;
+    }
+
+    .client-form {
+        height: 100%;
+    }
+
+    .copy-right {
+        padding: 0;
+        flex-flow: column-reverse;
+        text-align: center;
+        padding: 5% 0;
+    }
+
+    .copy-right__contact {
+        flex-flow: column;
+        margin-right: 0;
+        margin-bottom: 3%;
+    }
+
+    .copy-right__contact h4:nth-child(1) {
+        margin-right: 0;
+        margin: 3% 0;
+    }
+
+    .contact-section {
+        -ms-flex-flow: column;
+        flex-flow: column;
+    }
+
+    .contact-form  {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .contact-loc {
+        width: 100%;
+    }
+
+    .contact-loc__address {
+        margin-left: 3%;
+    }
+
+    .contact-loc__contact {
+        margin-left: 3%;
+    }
+
+    .col .e-field .form-line {
+        width: 90%;
+    }
+
+    .main-about {
+        padding: 0 1.5rem;
+    }
+
+    .main-about__works {
+        margin-top: 25%;
+    }
+
+    .main-about__work-header, 
+    .main-about__work-header-left {
+        position: relative;
+        width: 100%;
+        margin: 6% 0;
+        font-size: 20px;
+    }
+
+    .text-right, .text-left {
+        text-align: center;
+    }
+
+    .works-done__container {
+        flex-flow: column;
+    }
+
+    .inverse-column {
+        flex-flow: column-reverse;
+    }
+
+    .main-about__work-description {
+        position: relative;
+    }
+
+    .main-about__work-button,
+    .main-about__work-button-left {
+        position: relative;
+    }
+
+    .main-about__work-button {
+        margin: 5% 0;
+    }
+
+    .main-about__work-description p {
+        padding: 0 1rem;
+        font-size: 18px;
+    }
+
+    .main-about__work-left {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .main-about__work,
+    .main-about__work-left {
+        width: 100%;
+    }
+
+    .main-about__work-button-left {
+        text-align: center;
+        margin: 5% 0;
+    }
+
+    .main-about__works-header {
+        font-size: 24px;
+    }
+
+    .main-button {
+        margin-bottom: 25%;
+    }
+
+    .main-client {
+        padding: 25% 0;
+    }
+
+    .client-area {
+        padding: 0 1rem;
+        grid-gap: 20px;
+    }
+    
+    .main-news {
+        padding: 20% 0;
+    }
+
+    .news-section__header {
+        font-size: 25px;
+    }
+
+    .news-area__box {
+        padding: 1.5rem;
+    }
+
+    .aboutDODO {
+        flex-flow: column;
+    }
+    
+    .about-content {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .DODO-in-details {
+        width: 100%;
+        text-align: center;
+        margin-top: 10%;
+        line-height: 1.6;
+    }
+    
+    .DODO-in-details__content {
+        font-size: 22px;
+    }
+
+    .believes, .services {
+        flex-flow: column;
+    }
+
+    .believes-intro {
+        display: none;
+    }
+
+    .believes-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .believes-content__header h4 {
+        display: none;
+    }
+
+    .believes-content__header h5 {
+        display: block;
+        font-size: 32px;
+        padding: 0 1.5rem;
+    }
+
+    .believes-content__images, 
+    .services-content__images {
+        flex-flow: column;
+    }
+
+
+    .believes-content__image1 {
+        margin-right: 0;
+    }
+
+    .believes-content__image1, 
+    .believes-content__image2,
+    .believes-content__image3 {
+        height: 380px;
+        margin: auto;
+    }
+
+    .believes-content__image3 {
+        position: relative;
+        margin-top: 20%;
+    }
+
+    .believes-content__image2 img {
+        top: 10%;
+    }
+
+    .mt-t {
+        margin-top: 20%;
+    }
+
+    .mt-2 {
+        margin-top: 30%;
+    }
+
+    .services-intro {
+        width: 100%;
+        text-align: center;
+    }
+
+    .filter-con {
+        display: none;
+    }
+
+    .filter-head {
+        display: block;
+        font-family: 'Gilroy Bold';
+        font-size: 25px;
+        margin: 10% 0;
+    }
+
+    .services-content {
+        display: none;
+    }
+
+    .services-content__mobile {
+        display: block;
+        margin: 0 6%;
+    }
+
+    .accordion {
+        background-color: #f4f4f4;
+        color: #454545;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-family: 'Gilroy Medium';
+        transition: 0.4s;
+        font-size: 20px;
+    }
+
+    .accordion:after {
+        content:  url('../img/icons/arrowright.png');
+        color: #454545;
+        font-weight: bold;
+        float: right;
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    .active:after {
+        content:  url('../img/icons/arrowDown@2x.png');
+    }
+
+    .panel {
+        padding: 2px 0;
+        background-color: #FFFFFF;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .2s ease-out;
+    }
+
+    .panel p {
+        padding: 15px 0;
+        font-family: 'Gilroy Medium';
+        font-size: 18px;
+    }
+
+    .related-content {
+        flex-flow: column;
+    }
+
+    .related-content__header {
+        width: 100%;
+        text-align: center;
+        margin: 10% 0;
+        font-size: 25px;
+    }
+
+    .related-content__header h4 {
+        padding: 0 1.5rem;
+    }
+
+    .services-content__image1 {
+        margin-right: 0;
+        margin-bottom: 10%;
+    }
+
+    .works-done {
+        width: 100%;
+        margin-left: 0;
+        padding: 0 1.5rem;
+
+    }
+
+    .works-filter {
+        display: none;
+    }
+
+    .works-done__work {
+        width: 100%;
+    }
+
+    .works-done__work-header {
+        position: relative;
+        font-size: 20px;
+        margin-top: 5%;
+    }
+
+    .works-done__work-description {
+        position: relative;
+    }
+
+    .works-done__work-right {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .text-left p {
+        font-size: 20px;
+    }
+
+    #contact .nav-button {
+        display: none;
+    }
+
+    .close-button .cancel {
+        margin-right: 1rem;
+    }
+
+}
